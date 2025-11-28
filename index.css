@@ -1,3 +1,89 @@
 body {
-background: #b9d6cd;
+  background: #dae9e4;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  padding: 80px 0px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: block;
+}
+
+header {
+  background: #e5f5f0;
+  margin: 10px 20px;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 200;
+  color: #3f5d7f;
+}
+
+h1 {
+  font-weight: 600;
+  color: #033063;
+}
+
+.input-form {
+  background: #e5f5f0;
+  margin: 10px 20px;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+.input {
+  width: 180px;
+  padding: 20px 120px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.submit-button {
+  padding: 20px 40px;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  color: #e5f5f0;
+  background-color: #3f5d7f;
+  transition: all 200ms ease-in-out;
+}
+.submit-button:hover {
+  color: #3f5d7f;
+  background-color: #e5f5f0;
+}
+.workout-title {
+  color: #033063;
+}
+.workout {
+  background: #e5f5f0;
+  text-align: left;
+  margin: 10px 20px;
+  padding: 20px;
+  border-radius: 14px;
+  color: #01142b;
+}
+
+.text {
+  padding-left: 10px;
+  position: relative;
+  left: 150px;
+  border-left: 3px solid #033063;
+}
+
+footer {
+  color: #3f5d7f;
+}
+
+a {
+  color: #033063;
+}
+a:visited {
+  color: #450363;
 }

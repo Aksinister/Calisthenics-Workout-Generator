@@ -4,52 +4,59 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calisthenics workout generator</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Calisthenics Workout Generator</h1>
-    <h2>
-      Choose a muscle group, lower/upper or full body as your focus for the
-      workout and let the AI coach generate a workout for you!
-    </h2>
-    <section>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a focus for the workout"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-    </section>
-    <section>
-      <strong>Your Workout:</strong>
-      <div>
-        Exercise - 4 sets x 12 reps
-        <br />
-        Exercise - 4 sets x 12 reps
-        <br />
-        Exercise - 4 sets x 12 reps
-        <br />
-        Exercise - 4 sets x 12 reps
-      </div>
-    </section>
-    <footer>
-      This Project was coded by
-      <a href="https://github.com/Aksinister">Aksinia</a>, is open-sourced on
-      <a
-        href="https://github.com/Aksinister/Calisthenics-Workout-Generator"
-        target="_blank"
-        >Github</a
-      >
-      and is hosted by
-      <a
-        href="https://calisthenicsworkoutgenerator.netlify.app/"
-        target="_blank"
-        >Netlify</a
-      >
-    </footer>
-    <script src="index.js"></script>
+    <div class="container">
+      <header>
+        <h1>Calisthenics Workout Generator</h1>
+        <h2>
+          Choose a muscle group, lower/upper or full body as your focus for the
+          workout and let the AI coach generate a workout for you!
+        </h2>
+      </header>
+      <section>
+        <form class="input-form">
+          <input
+            type="text"
+            placeholder="Enter a focus for the workout"
+            autofocus
+            required
+            autocomplete="off"
+            class="input"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+      </section>
+      <section class="workout">
+        <div class="text">
+          <strong class="workout-title">Your Workout:</strong>
+          <br />
+          Exercise - 4 sets x 12 reps
+          <br />
+          Exercise - 4 sets x 12 reps
+          <br />
+          Exercise - 4 sets x 12 reps
+          <br />
+          Exercise - 4 sets x 12 reps
+        </div>
+      </section>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Aksinister">Aksinia</a>, is open-sourced on
+        <a
+          href="https://github.com/Aksinister/Calisthenics-Workout-Generator"
+          target="_blank"
+          >Github</a
+        >
+        and is hosted by
+        <a
+          href="https://calisthenicsworkoutgenerator.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >
+      </footer>
+      <script src="index.js"></script>
+    </div>
   </body>
 </html>
