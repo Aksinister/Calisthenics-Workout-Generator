@@ -60,12 +60,7 @@ h1 {
   position: relative;
   right: 180px;
 }
-.workout-title {
-  position: relative;
-  left: 150px;
-  color: #033063;
-}
-#workout {
+.workout-section {
   background: #e5f5f0;
   text-align: left;
   margin: 10px 20px;
@@ -73,16 +68,15 @@ h1 {
   border-radius: 14px;
   color: #01142b;
 }
-
-.hide {
-  display: none;
-}
-
-.text {
+#workout {
   padding-left: 10px;
   position: relative;
   left: 150px;
   border-left: 3px solid #033063;
+}
+
+.hide {
+  display: none;
 }
 
 footer {

@@ -7,6 +7,7 @@ function printWorkout(response) {
 }
 function generateWorkout(event) {
   event.preventDefault();
+
   let userInput = document.querySelector("#input");
   let apiKey = "7300c6775obt0415fe6635cd0da0d3fe";
   let context =
