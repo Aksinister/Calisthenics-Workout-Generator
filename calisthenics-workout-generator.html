@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calisthenics workout generator</title>
     <link rel="stylesheet" href="index.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
@@ -16,30 +17,21 @@
         </h2>
       </header>
       <section>
-        <form class="input-form">
+        <form id="inputForm">
           <input
             type="text"
             placeholder="Enter a focus for the workout"
             autofocus
             required
             autocomplete="off"
-            class="input"
+            id="input"
           />
-          <input type="submit" class="submit-button" />
+          <input type="submit" id="submitButton" />
         </form>
       </section>
       <section class="workout">
-        <div class="text">
-          <strong class="workout-title">Your Workout:</strong>
-          <br />
-          Exercise - 4 sets x 12 reps
-          <br />
-          Exercise - 4 sets x 12 reps
-          <br />
-          Exercise - 4 sets x 12 reps
-          <br />
-          Exercise - 4 sets x 12 reps
-        </div>
+        <strong class="workout-title">Your Workout:</strong>
+        <div class="text" id="printed-workout"></div>
       </section>
       <footer>
         This project was coded by

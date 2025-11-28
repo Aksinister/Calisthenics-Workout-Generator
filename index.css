@@ -29,14 +29,14 @@ h1 {
   color: #033063;
 }
 
-.input-form {
+#inputForm {
   background: #e5f5f0;
   margin: 10px 20px;
   padding: 20px;
   border-radius: 14px;
 }
 
-.input {
+#input {
   width: 180px;
   padding: 20px 120px;
   border: none;
@@ -44,7 +44,7 @@ h1 {
   border-radius: 40px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
-.submit-button {
+#submitButton {
   padding: 20px 40px;
   border: none;
   outline: none;
@@ -54,11 +54,13 @@ h1 {
   background-color: #3f5d7f;
   transition: all 200ms ease-in-out;
 }
-.submit-button:hover {
+#submitButton:hover {
   color: #3f5d7f;
-  background-color: #e5f5f0;
+  background-color: #fff;
 }
 .workout-title {
+  position: relative;
+  left: 150px;
   color: #033063;
 }
 .workout {
