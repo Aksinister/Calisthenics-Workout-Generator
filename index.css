@@ -60,7 +60,7 @@ h1 {
   position: relative;
   right: 180px;
 }
-.workout-section {
+#workoutSection {
   background: #e5f5f0;
   text-align: left;
   margin: 10px 20px;

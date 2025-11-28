@@ -3,6 +3,7 @@ function printWorkout(response) {
     strings: [response.data.answer],
     autoStart: true,
     delay: 50,
+    deleteSpeed: "1000000000000000000000000000000000000000000000000",
   });
 }
 function generateWorkout(event) {
@@ -14,6 +15,9 @@ function generateWorkout(event) {
     "You make lists of calisthenics workouts.You only suggest exercises that have a focus on the body part that you are given.";
   let prompt = `Please generate a list of no more than 7 calisthenics exercises from this prompt:${userInput.value}.Display the name of each exercise like this: <strong>Squats</strong>: 4 sets of 12 reps.Please make sure to include a <br /> between each line too. Do not anounce anything conversational, simply print the exercise`;
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+
+  let section = document.querySelector("#workoutSection");
+  section.classList.remove("hide");
 
   let workout = document.querySelector("#workout");
   workout.classList.remove("hide");
