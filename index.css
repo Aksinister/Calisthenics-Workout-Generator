@@ -18,18 +18,12 @@ header {
   border-radius: 14px;
 }
 
-h2 {
-  font-size: 20px;
-  font-weight: 200;
-  color: #3f5d7f;
-}
-
 h1 {
   font-weight: 600;
   color: #033063;
 }
 
-#inputForm {
+#inputSection {
   background: #e5f5f0;
   margin: 10px 20px;
   padding: 20px;
@@ -58,18 +52,30 @@ h1 {
   color: #3f5d7f;
   background-color: #fff;
 }
+#examples {
+  color: #3f5d7f;
+  font-size: 12px;
+  margin: 0 auto;
+  padding-top: 10px;
+  position: relative;
+  right: 180px;
+}
 .workout-title {
   position: relative;
   left: 150px;
   color: #033063;
 }
-.workout {
+#workout {
   background: #e5f5f0;
   text-align: left;
   margin: 10px 20px;
   padding: 20px;
   border-radius: 14px;
   color: #01142b;
+}
+
+.hide {
+  display: none;
 }
 
 .text {
@@ -88,4 +94,18 @@ a {
 }
 a:visited {
   color: #450363;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
 }

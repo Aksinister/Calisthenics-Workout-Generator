@@ -12,16 +12,12 @@
     <div class="container">
       <header>
         <h1>Calisthenics Workout Generator</h1>
-        <h2>
-          Choose a muscle group as your focus for the
-          workout and let the AI coach generate a workout for you!
-        </h2>
       </header>
-      <section>
+      <section id="inputSection">
         <form id="inputForm">
           <input
             type="text"
-            placeholder="Enter a focus for the workout"
+            placeholder="Enter a focus for your workout"
             autofocus
             required
             autocomplete="off"
@@ -29,10 +25,10 @@
           />
           <input type="submit" id="submitButton" />
         </form>
+        <div id="examples">i.e: Legs, Core, Full-Body</div>
       </section>
-      <section class="workout">
-        <strong class="workout-title">Your Workout:</strong>
-        <div class="text" id="printed-workout"></div>
+      <section class="hide" id="workout">
+        <div id="printed-workout"></div>
       </section>
       <footer>
         This project was coded by
